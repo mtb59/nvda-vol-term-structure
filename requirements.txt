@@ -1,0 +1,17 @@
+numpy>=1.26
+scipy>=1.11
+pandas>=2.1
+matplotlib>=3.8
+
+# Bloomberg integration (optional, only needed to run fetch_option_chain_bloomberg
+# in data.py against a live terminal -- see README "Running on Bloomberg" section
+# for the macOS-specific caveat before installing these).
+# blpapi
+# xbbg
+
+# testing
+pytest>=7.4
+
+# public-facing app (app.py) -- free data only, no Bloomberg dependency
+streamlit>=1.35
+yfinance>=0.2.40
